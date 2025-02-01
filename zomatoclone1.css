@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.one{
+    background-image: url("zomato_background2.jpg");
+    background-size: cover;
+    height: 400px;
+    width:100%;
+    
+}
+.navbarz{
+    display: flex;
+    padding-top: 10px;
+    flex-wrap:wrap;
+    color: white;
+    font-size:0.85rem;
+}
+.navbarz p{
+    margin-left: 15px;
+    /* margin-top: 35px; */
+}
+.applink{
+    width:60%;
+}
+#openapplink{
+    background-color: transparent;
+    color: white;
+}
+.navls{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 50px; */
+    margin-top: 120px;
+}
+.zlogo{
+    background-image: url("zomato_logof.png");
+    background-size: cover;
+    height:63px;
+    width:290px;
+    margin-left: 100px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.searchz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    /* width:200px; */
+}
+.selectz{
+    height: 30px;
+    width:120px;
+}
+.inputz{
+    height: 30px;
+    width:400px;
+}
+.logonote{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding-left: 40px;
+    
+}
+.components{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+   
+}
+.comp{
+    margin-left: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: white;
+
+
+}
+ /* .compborder{
+    border-radius: 1rem;
+    border: 2px solid red;
+}  */
+.compnote{
+    justify-content:center;
+    align-items: center;
+    margin-bottom:5px;
+    
+}
+.compnote1{
+    font-size: 1rem;
+    margin-bottom: 3px;
+    font-weight:700;
+}
+.compnote2{
+    font-size: 0.9rem;
+}
+.subtitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.subtitlenote{
+    display: flex;
+}
+.snote1{
+    width:70%;
+}
+
+.cnote{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.head-btns{
+    font-size: 2rem;
+    color: black;
+}
+.btns-local{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.btns{
+    width: 300px;
+    height:80px;
+    font-weight:300;
+    margin-top: 10px;
+    font-size:medium;
+    background-color: white;
+    color: black;
+    border-color: whitesmoke;
+}
+.places{
+    font-size: small;
+    font-weight: 100;
+}
+/* for app */
+.app{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.apptext{
+    font-size: 2rem;
+}
+#appt{
+    font-size: 1rem;
+    font-weight:100;
+}
+.opts-app{
+    font-size: 1.2rem;
+}
+.btn-app{
+    background-color: red;
+    color: whitesmoke;
+    height:40px;
+    width:120px;
+    border-radius: 4px;
+    border-color: red;
+}
+.enter-app{
+    height: 40px;
+}
+.exptext{
+    font-size: 1.6rem;
+}
+.exp{
+    width:90%;
+    align-items: left;
+    justify-items: left;
+    text-align: left;
+    height:40px;
+    font-weight:300;
+    margin-top:10px;
+    font-size:medium;
+    border-color:whitesmoke;
+    background-color: white;
+    color: black;
+
+    padding-top: 10px;
+}
+.expl{
+    margin-left:20px;
+    margin-top: 10px;
+    
+}
+/* footer */
+.footimg{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.foot-panel p{
+    font-weight: 500px;
+    font-size: 1rem;
+    color:black;
+}
+.foot-panel{
+    color: grey;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footfinal{
+    font-size: 0.7rem;
+    color: grey;
+}
+main{
+    padding-left: 30px;
+    margin-left: 30px;
+}
