@@ -9,22 +9,29 @@
 </head>
 <body>
   <div class="app-wrap">
-    <header>
-      <input type="text" class="search" placeholder="Search for a city..." />
-      <button class="search-icon">
-        <i class="fa-solid fa-magnifying-glass"></i></button>
+    <header> <div class="ani1">
+      <input type="text" class="search" placeholder="Search for a city..." /></div>
+      <button class="search-icon"> <div class="ani2">
+        <i class="fa-solid fa-magnifying-glass"></i></div></button>
     </header>
     <main>
+      
+        <!-- <div class="pic"><img src="weatherclip.jpg"></div> -->
       <section class="location">
         <div class="city">Barrackpore</div>
         <div class="date">Saturday 2 February 2025</div>
       </section>
       <div class="current">
+        <div class="img"><img class="img2" src="sky2.jpg" height="200px"></div>
         <div class="temp">20<span>°c</span></div>
         <div class="weather">WEATHER</div>
         <div class="hi-low"></div>
       </div>
+    
     </main>
+    <div class="error"><p>Location not found</p>
+      <img src="error.jpg" height="200px">
+      </div>
   </div>
   <script src="weather2.js"></script>
 </body>
